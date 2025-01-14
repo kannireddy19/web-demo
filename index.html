@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #28a745;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('fitness-banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2rem;
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 2rem);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fitness Hub</h1>
+        <p>Your Gateway to a Healthier Lifestyle</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Transform Your Body, Mind, and Life</h1>
+    </section>
+
+    <main class="content">
+        <div class="card">
+            <img src="workout.jpg" alt="Workout">
+            <h3>Personalized Workouts</h3>
+            <p>Get a custom workout plan tailored to your goals.</p>
+        </div>
+        <div class="card">
+            <img src="nutrition.jpg" alt="Nutrition">
+            <h3>Nutrition Guidance</h3>
+            <p>Learn what to eat to fuel your body and mind.</p>
+        </div>
+        <div class="card">
+            <img src="yoga.jpg" alt="Yoga">
+            <h3>Yoga & Meditation</h3>
+            <p>Relax and rejuvenate with yoga and meditation sessions.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fitness Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
